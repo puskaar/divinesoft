@@ -44,10 +44,6 @@
 {
   color: blue !important;
 }
-/*.navbar
-{
-  background-color:#0B2161;
-}*/
 .navbar-toggler
 {
   border: none!important;
@@ -85,16 +81,11 @@
     color: #ffffff;
     padding: 10px;
   }
-
- 
- 
-
 /*-------------Hero  section-----------*/
 #hero-section {
 	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/teacup.jpg);
   background-size: cover;
   background-position: center;
-  /* height: 600px; */
 }
 .hero-layout {
 	padding-top: 150px;
@@ -157,7 +148,6 @@
   content:'';
   position: relative;
   top: 1px;
-  /* left: 785px; */
   right: 0;
   margin: 0 auto;
   margin-left: 0px;
@@ -187,9 +177,7 @@
 
 #highlight-section {
 	position: relative;
-	/* bottom: 100px; */
   margin-bottom: -100px;
-  /*background-color: lightgreen;*/
 } 
 .highlight-design {
   position: relative;
@@ -200,7 +188,6 @@
 	position: relative;
   background-color: #f9faff;
   z-index: 9;
-	/* height: 372px; */
 }
 .box-highlight .follow {
   position: relative;
@@ -220,7 +207,6 @@
     position: relative;
     top: 50px;
     left: 134px;
-    /*bottom: 21px;*/
     border-radius: 50px;
     z-index: 9;
 } 
@@ -278,7 +264,6 @@
 	bottom: 78px;
 	width: 100%;
 	height: 390px;
-	/*object-fit: cover;*/
 	z-index: 99;
 }
 #first_element { 
@@ -543,12 +528,6 @@
   height: 373px;
   position: relative;
 }
-/* #trusted_layer img{
-  width: 1400px;
-  z-index: 999;
-    position: relative;
-    bottom: 59px;
-  } */
  #trusted_layer .customer_curve img {
    width: 100%;
     z-index: 999;
@@ -569,7 +548,6 @@
   color: #ffffff;
 }
 .trusted_customer h1 {
-  /* padding-top: 140px; */
   z-index: 999;
 }
 .trusted_customer h4 {
@@ -676,7 +654,6 @@
   position: relative;
   top: 50px;
   left: 110px;
-  /* bottom: 21px; */
   border-radius: 50px;
   z-index: 9;
 }
@@ -704,7 +681,6 @@
   }
   .nav-link {
     font-size: 11px;
-    /* padding: 0px 7px; */
   }
   .navbar-nav li {
     padding: 0px 7px;
@@ -715,6 +691,10 @@
     position: relative;
     top: -8px;
     left: 9px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 12px;
+  padding-left: 2px;
 }
 .dropdown .nav-contact {
       padding: 10px 15px;
@@ -889,8 +869,6 @@
     left: 6px;
 }
   #trusted_layer {
-  /* background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/trusted-client.jpg);
-  background-position: center; */
   height: 300px;
 }
 .box-highlight .first_element {
