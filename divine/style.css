@@ -896,6 +896,16 @@
   }
 
 @media (max-width: 576px) {
+  .triangle_back {
+    display: none;
+  }
+  .background_triangle {
+    display: none;
+  }
+  .layout-two-hero {
+    position: relative;
+    top: 55px;
+  }
   .navbar-nav li {
     padding: 0px 7px;
     text-align: left;
