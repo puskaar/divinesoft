@@ -315,7 +315,6 @@
   width: 50%;
   height: 10px;
 }
-
 /*-----------------upgraded and hosting-------------------*/
 .optimised-hosting {
   text-align: center;
@@ -341,7 +340,7 @@
 .down_image:after{
   content:'';
   position: absolute;
-  top: -42%;
+  bottom: -137px;
   left: 0;
   right: 0;
   margin: 0 auto;
