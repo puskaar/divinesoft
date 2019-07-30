@@ -1,96 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-   <title></title>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="plugin/slick/slick.css">
-   <link rel="stylesheet" type="text/css" href="plugin/slick/slick-theme.css">
-   <!-- <link rel="stylesheet" href="plugin/font-awesome.min.css"> -->
-   <link rel="stylesheet" href="style.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-   <script src="main.js"></script>
-</head>
-
-<body>
-   <section id="body_layout">
-      <!----------------navbar--------------->
-      <section id="top-header">
-         <div class="container">
-            <div class="row ">
-               <nav class="navbar navbar-expand-md navbar-light">
-                  <a class="navbar-brand" href="#"><img src="img/transparent.gif"></a>
-                  <button id="nav-toggler-button" class="navbar-toggler" type="button" data-toggle="collapse"
-                     data-target="#collapsibleNavbar">
-                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                           <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                              Our Products
-                           </a>
-                           <ul class="dropdown-menu">
-                              <li class="nav-item">
-                                 <a class="dropdown-item" href="#">Link 1</a>
-                              </li>
-                              <li class="nav-item"> <a class="dropdown-item" href="#">Link 2</a></li>
-                              <li class="nav-item"> <a class="dropdown-item" href="#">Link 3</a></li>
-                           </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                              Web Hosting
-                           </a>
-                           <ul class="dropdown-menu">
-                              <li class="nav-item">
-                                 <a class="dropdown-item" href="#">Link 1</a>
-                              </li>
-                              <li class="nav-item"> <a class="dropdown-item" href="#">Link 2</a></li>
-                              <li class="nav-item"> <a class="dropdown-item" href="#">Link 3</a></li>
-                           </ul>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="#">Web design & Development</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="#">Support</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle nav-contact" href="#" id="navbardrop"
-                              data-toggle="dropdown">
-                              Contact us 24/7
-                           </a>
-                           <ul class="dropdown-menu">
-                              <li class="nav-item">
-                                 <a class="dropdown-item" href="#">Link 1</a>
-                              </li>
-                              <li class="nav-item"> <a class="dropdown-item" href="#">Link 2</a></li>
-                              <li class="nav-item"> <a class="dropdown-item" href="#">Link 3</a></li>
-                           </ul>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link " href="#contact"><i class="fa fa-search"></i></a>
-                        </li>
-                     </ul>
-                  </div>
-               </nav>
-            </div>
-         </div>
-      </section>
-      <!-----------hero section---------->
+<?php
+include("header.php");
+ ?>
       <section id="hero-section">
          <div class="container">
             <div class="row hero-layout">
@@ -183,6 +93,7 @@
          </div> 
       </section>
       <!---------------------Our experience----------------->
+      <div class="gap"></div>
       <section id="about" class="animated bounceInUp wow" data-wow-duration="500ms">
          <div class="container">
             <div class="row justify-content-center">
@@ -263,7 +174,7 @@
                         <li><i class="fa fa-check" aria-hidden="true"></i>FREE Domain Registration</li>
                         <li><i class="fa fa-check" aria-hidden="true"></i>Daily Automatic Data Backup</li>
                      </ul>
-                     <div class="btn-order">
+                     <div class="btn-order-wrapper">
                         <button type="button" class="btn-order">Order</button>
                      </div>
                   </div>
@@ -393,143 +304,8 @@
          </div>
          <div class="overlay"></div>
       </section>
-      <!-----------------Footer----------------->
-      <section id="footer-section">
-         <footer>
-            <div class="container">
-               <div class="row layout-footer">
-                  <div class="col-lg-3 footer-link">
-                     <h4>Company</h4>
-                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li>Career</li>
-                        <li>Privacy</li>
-                        <li>Services</li>
-                        <li>Projects</li>
-                     </ul>
-                  </div>
-                  <div class="col-lg-3 footer-link">
-                     <h4>Support</h4>
-                     <ul>
-                        <li>Live chat</li>
-                        <li>Help Desk</li>
-                        <li>Knowledge</li>
-                        <li>Messaging</li>
-                     </ul>
-                  </div>
-                  <div class="col-lg-3 footer-link">
-                     <h4>Menu</h4>
-                     <ul>
-                        <li>Web Hosting</li>
-                        <li>Reseller Web Hosting</li>
-                        <li>Web Design & Development</li>
-                        <li>Domain Registration</li>
-                        <li>Outsourcing</li>
-                        <li>SEO</li>
-                     </ul>
-                  </div>
-                  <div class="col-lg-3 footer-link footer-address">
-                     <h4>Address</h4>
-                     <div class="row">
-                        <div class="col-lg-2 col-2">
-                           <div class="follow"><i class="fa fa-location-arrow"></i></div>
-                        </div>
-                        <div class="col-lg-10 col-10">
-                           <ul>
-                              <li>Way to Shankhamul</li>
-                              <li>New Baneshwor, Kathmandu Nepal</li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-lg-2 col-2">
-                           <div class="follow"><i class="fa fa-clock-o"></i></div>
-                        </div>
-                        <div class="col-lg-10 col-10">
-                           <ul>
-                              <li>9 AM-6 PM</li>
-                              <li>Monday-Friday</li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-lg-2 col-2">
-                           <div class="follow"><i class="fa fa-headphones" aria-hidden="true"></i></div>
-                        </div>
-                        <div class="col-lg-10 col-10">
-                           <ul>
-                              <li>24/7 Support</li>
-                              <li>977-9851033634, 977-9803890504</li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <section>
-               <div class="container">
-                  <div class="row footer-clients">
-                     <div class="col-lg-12 client-service">
-                        <h3>OUR CLIENTS</h3>
-                        <p>We help more than 2000 + global & local clients. Our solutions are<br> popular with large,
-                           middle-sized and small companies alike.Aside you will find a short selection of our clients
-                        </p>
-                     </div>
-                  </div>
-                  <div class="row justify-content-center layout-slider ">
-                     <div class="col-lg-6 col-9 center slider">
-                        <div class="slider-images">
-                           <img src="img/cup.jpg">
-                        </div>
-                        <div class="slider-images">
-                           <img src="img/img5.jpg">
-                        </div>
-                        <div class="slider-images">
-                           <img src="img/img2.jpg">
-                        </div>
-                        <div class="slider-images">
-                           <img src="img/img3.jpg">
-                        </div>
-                        <div class="slider-images">
-                           <img src="img/img4.jpg">
-                        </div>
-                        <div class="slider-images">
-                           <img src="img/img5.jpg">
-                        </div>
-                        <div class="slider-images">
-                           <img src="img/img6.jpg">
-                        </div>
-                        <div class="slider-images">
-                           <img src="img/img7.jpg">
-                        </div>
-                        <div class="slider-images">
-                           <img src="img/img8.jpg">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="container">
-                  <div class="row footer-follower">
-                     <div class="col-lg-12">
-                        <div class="follow align-items-center">
-                           <label><b>Follow us on</b></label><br>
-                           <a href="#"><i class="fa fa-facebook"></i></a>
-                           <a href="#"><i class="fa fa-twitter"></i></a>
-                           <a href="#"><i class="fa fa-dribbble"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="copyright-footer">
-                  <div class="col-lg-12">
-                     <p>Copyright @2019 himalayanweb by jrackki.All Rights Reserved.<span> Terms of use</span></p>
-                  </div>
-               </div>
-            </section>
-         </footer>
-      </section>
-   </section>
-   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-   <script src="plugin/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
-</body>
-</html>
+      
+      <?php 
+      include("footer.php");
+      ?>
+      
