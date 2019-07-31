@@ -198,7 +198,7 @@ include("header.php");
       </div>
    </section> -->
 
-<section>
+<!-- <section>
    <div class="container">
       <div class="row categ-slider">
          <div class="gap-25"></div>
@@ -210,14 +210,13 @@ include("header.php");
          <div class="gap-25"></div>
 <div class="col-lg-2">
    <div class="tab">
-   <!-- <button class="tablinks" onclick="verticalTab(event, 'web-1')" id="defaultOpen" data-id="web-1">VPS Hosting</button> -->
-   <button class="tablinks active"   data-id="web-1">VPS Hosting</button>
+ <button class="tablinks" onclick="verticalTab(event, 'web-1')" id="defaultOpen" data-id="web-1">VPS Hosting</button> -->
+   <!-- <button class="tablinks active"   data-id="web-1">VPS Hosting</button>
    <button class="tablinks"   data-id="web-2">Web Hosting</button>
    <button class="tablinks"  data-id="web-3">Cloud Hosting</button>
-   </div>
-</div>
+   </div></div> --> 
 
-<div class="col-lg-10">
+<!-- <div class="col-lg-10">
 <div id="web-1" class="tabcontent show-tabcontent">
 <div class="row">
 <h2 class="cat-header" >We're Expertise & Strategic Agency </h2>
@@ -293,14 +292,14 @@ include("header.php");
                      </div>
                     
                   </div>
-                  <!--End of center slider-->
+                  End of center slider
                </div>
-               <!--End of layout-slider-->
+               End of layout-slider
                   
             
          </div>
 
-<div id="web-2" class="tabcontent">
+ <div id="web-2" class="tabcontent">
 <div class="row">
                   <div class="col-lg-12 col-12 featured-hosting-slider">
                      <div class="domain-hosting-item">
@@ -376,7 +375,7 @@ include("header.php");
                   <!--End of center slider-->
                </div>
                <!--End of layout-slider-->
-</div>
+<!-- </div>
 
 <div id="web-3" class="tabcontent">
   <h3>Cloud Hosting</h3>
@@ -387,6 +386,78 @@ include("header.php");
 
 </div>
    </div>
+</section> -->
+
+<section>
+    <div class="container">
+        <div class="row web-hosting-plan">
+            <div class="col-lg-5 col-md-5 hosting-layout-plan">
+                <h4>Processing Power & Memory</h4>
+                <h4>Websites</h4>
+                <h4>Disk Space</h4>
+                <h4>Bandwidth</h4>
+                <h4>MySQL Databases</h4>
+                <h4>Free Domain Registration</h4>
+                <h4>Free SSL</h4>
+                <h4>Daily Backups</h4>
+                <h4>Email Accounts</h4>
+            </div>
+            <div class="col-lg-7 col-md-7">
+                <div class="row hosting-comparision">
+                    <div class="col-lg-4 hosting-plan">
+                    <h5>Single</h5>
+                    <p>$<strong>0</strong>/mo</p>
+                    <button type="button" class="btn-cart">Add to cart</button>   
+                    </div>
+                    <div class="col-lg-4 hosting-plan hosting-mid-plan">
+                    <h5>Premium</h5>
+                    <p>$<strong>2</strong>/mo</p>
+                    <button type="button" class="btn-cart">Add to cart</button>
+                    </div>
+                    <div class="col-lg-4 hosting-plan">
+                    <h5>Business</h5>
+                    <p>$<strong>3</strong>/mo</p>
+                    <button type="button" class="btn-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 hosting-plan-layout2">
+                        <p>1X</p>
+                        <p>1</p>
+                        <p>10GB</p>
+                        <p>100GB</p>
+                        <p>1</p>
+                        <p><i class="fa fa-times"></i></p>
+                        <p><i class="fa fa-times"></i></p>
+                        <p><i class="fa fa-times"></i></p>
+                        <p>1</p>
+                    </div>
+                    <div class="col-lg-4 hosting-plan-layout2">
+                        <p>2X</p>
+                        <p>Unlimited*</p>
+                        <p>20GB</p>
+                        <p>Unlimited</p>
+                        <p>Unlimited*</p>
+                        <p><i class="fa fa-check" aria-hidden="true"></i></p>
+                        <p><i class="fa fa-times"></i></p>
+                        <p><i class="fa fa-times"></i></p>
+                        <p>Unlimited*</p>
+                    </div>
+                    <div class="col-lg-4 hosting-plan-layout2">
+                        <p>4X</p>
+                        <p>Unlimited*</p>
+                        <p>30GB</p>
+                        <p>Unlimited</p>
+                        <p>Unlimited*</p>
+                        <p><i class="fa fa-check" aria-hidden="true"></i></p>
+                        <p><i class="fa fa-check" aria-hidden="true"></i></p>
+                        <p><i class="fa fa-check" aria-hidden="true"></i></p>
+                        <p>Unlimited*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="hosting-support-technologies">
 <div class="container">
@@ -395,7 +466,7 @@ include("header.php");
                      <div class="col-lg-12 col-12 hosting-support-technologies-slider slider">
                         <div class="slider-images">
                            <h5>Php</h5>
-                           <img src="img/php.png">
+                           <img src="img/php3.png">
                         </div>
                         <div class="slider-images">
                         <h5>Java</h5>
@@ -407,7 +478,7 @@ include("header.php");
                         </div>
                         <div class="slider-images">
                            <h5>Php</h5>
-                           <img src="img/php.png">
+                           <img src="img/php3.png">
                         </div>
                         <div class="slider-images">
                         <h5>Java</h5>

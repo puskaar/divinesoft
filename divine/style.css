@@ -241,47 +241,6 @@ table, th, td {
 .category-table {
   padding-top: 42px;
 }
-/* .category-slider .slick-prev::before {
-  content:"<";
-  color: #0c2947;
-  font-size: 27px;
-  font-weight: bold;
-  position: absolute;
-  top: 255px;
-  left: 677px;
-  bottom: 0px;
-  z-index: 99999;
-}
-.category-slider .slick-prev::after {
-  content:"prev";
-  color: #0c2947;
-  font-size: 17px;
-  font-weight: bold;
-  position: absolute;
-  top: 271px;
-  left: 700px;
-  bottom: 0px;
-  z-index: 99999;
-}
-.category-slider .slick-next::before {
-  content: "next";
-  color: #0c2947;
-  font-size: 17px;
-  font-weight: bold;
-  position: absolute;
-  top: 258px;
-  right: 133px;
-}
-.category-slider .slick-next::after {
-  content: ">";
-  color: #0c2947;
-  font-size: 27px;
-  font-weight: bold;
-  position: absolute;
-  top: 269px;
-  right: 110px;
-} */
-
 /*-------vertical tab-----------*/
 * {box-sizing: border-box}
 body {font-family: "Lato", sans-serif;}
@@ -324,10 +283,8 @@ body {font-family: "Lato", sans-serif;}
 .tabcontent {
   float: left;
   padding: 0px 12px;
-  /* border: 1px solid #ccc; */
   width: 100%;
   border-left: none;
-  /* height: 300px; */
 }
 .category-slider .prev-btn {
   position: absolute;
@@ -338,9 +295,6 @@ body {font-family: "Lato", sans-serif;}
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-/* .category-slider .slick-prev::after {
-  content: "prev";
-} */
 .category-slider .nxt-btn {
   position: relative;
     left: 775px;
@@ -980,7 +934,6 @@ padding: 0px 20px;
   content: '';
   position: absolute;
   bottom: -21px;
-  /* left: 113px; */
   right: 0;
   margin: 0 auto;
   width: 0;
@@ -1428,4 +1381,77 @@ span.navbar-toggler-icon{
 }
 .show-tabcontent{
   display:block;
+}
+
+#hosting-support-technologies {
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,-0.2)),url(img/cloud.png);
+  color: #ffffff;
+}
+.categ-slider .cat-header {
+  position: sticky;
+  top: 66px;
+  z-index: 999;
+  background-color: #02a3da;
+}
+/*------------hosting-plan------*/
+.web-hosting-plan .hosting-plan {
+  padding: 15px;
+  border: 1px solid; 
+}
+.web-hosting-plan .hosting-plan strong {
+  font-size: 32px;
+}
+.web-hosting-plan .hosting-comparision {
+  position: sticky;
+  top:66px;
+  z-index: 999;
+  background-color: lightgray;
+}
+.web-hosting-plan .hosting-layout-plan {
+  margin-top: 162px;
+}
+.web-hosting-plan .hosting-layout-plan h4{
+  font-weight: bold;
+  padding: 13px;
+  border: 1px solid;
+  margin: -1px;
+  margin-right: -16px;
+}
+/* .web-hosting-plan .hosting-layout-plan h4::after {
+    content: '\f059';
+    font-family: FontAwesome;
+    margin-left:5px;
+    color:#d3d3d3;
+} */
+.web-hosting-plan .hosting-plan h5 {
+  font-weight: bold;
+}
+.web-hosting-plan .hosting-plan-layout2 {
+  margin-top: 0px;
+}
+.web-hosting-plan .hosting-plan-layout2 p {
+  padding: 15px;
+  border: 1px solid;
+  margin: -1px;
+  margin-right: -16px;
+  margin-left: -15px;
+  text-align: center;
+}
+.web-hosting-plan .hosting-plan-layout2 .fa-times {
+  font-size: 20px;
+  color: #fc5155;
+  text-align: center;
+}
+.web-hosting-plan .hosting-plan-layout2 .fa-check {
+  font-size: 20px;
+  color:#00b67a;
+  text-align: center;
+
+}
+.web-hosting-plan .hosting-plan .btn-cart {
+  padding: 5px;
+  border: none;
+  background-color: #02a3da;
+  color: black;
+  border-radius: 5px;
 }
