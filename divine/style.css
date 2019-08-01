@@ -193,6 +193,7 @@
 #featured-hosting-package {
   background-color:#02a3da;
   padding: 25px 0px;
+  padding-top: 50px;
 }
 .home-package-title {
   color: #ffffff;
@@ -839,7 +840,12 @@ padding: 0px 20px;
   border: solid 5px #0875e2;
   z-index: 0;
 }
-	}
+  }
+  @media (min-width: 576px) {
+    .hide-desktop {
+      display: none;
+    }
+  }
 	@media (max-width: 768px) { 
     .web-hosting-plans h4 {
       font-size: 14px;
@@ -1069,6 +1075,14 @@ padding: 0px 20px;
   }
 
 @media (max-width: 576px) {
+  .web-hosting-plan .hosting-plan {
+    padding: 15px;
+    border-top: solid 1px #e8e9eb;
+    border-left: solid 1px #e8e9eb;
+    border-right: solid 1px #e8e9eb;
+    margin-right: 10px;
+    margin-left: 15px;
+}
 
   .triangle_back {
     display: none;
@@ -1292,6 +1306,20 @@ padding: 0px 20px;
     border-radius: 50px;
     z-index: 9;
 } 
+/*------hosting-package-------*/
+.hide-mobile {
+  display:none;
+}
+.web-hosting-layout-first h4 {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 15px;
+  margin-right: -15px;
+  margin-bottom: -7px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  border: solid 1px #e8e9eb;
+}
  }
 
  .navbar-toggler{
@@ -1405,12 +1433,27 @@ span.navbar-toggler-icon{
   background-color: #02a3da;
 }
 /*------------hosting-plan------*/
+#comparing-web-hosting {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#comparing-web {
+  padding-top: 50px;
+}
+.business-bottom {
+  padding-bottom: 50px;
+}
+.web-hosting-plan .hosting-plan {
+  padding: 15px;
+  border-top: solid 1px #e8e9eb;
+  border-left: solid 1px #e8e9eb;
+  border-right: solid 1px #e8e9eb;
+}
 .web-hosting-plan {
   position: sticky;
   top:66px;
   z-index: 999;
   background-color: #ffffff;
-  border-right: solid 1px #e8e9eb;
   text-align: center;
 }
  .web-hosting-plan h2{
@@ -1435,7 +1478,7 @@ span.navbar-toggler-icon{
   border-radius: 5px;
 }
 .web-hosting-plans h4 {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   padding: 13px;
   margin-right: -15px;
