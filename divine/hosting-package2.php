@@ -388,10 +388,14 @@ include("header.php");
    </div>
 </section> -->
 
-<section>
+<!-- <section id="comparing-web-hosting">
     <div class="container">
+    <div class="gap-25"></div>
+       <h2 class="comparing-web-hosting-header">Compare All <b>Web Hosting</b> Plans</h2>
+       <div class="gap-25"></div>
         <div class="row web-hosting-plan">
-            <div class="col-lg-5 col-md-5 hosting-layout-plan">
+            <div class="col-lg-5 col-md-4 col-sm-5 hosting-layout-plan">
+               
                 <h4>Processing Power & Memory</h4>
                 <h4>Websites</h4>
                 <h4>Disk Space</h4>
@@ -402,21 +406,21 @@ include("header.php");
                 <h4>Daily Backups</h4>
                 <h4>Email Accounts</h4>
             </div>
-            <div class="col-lg-7 col-md-7">
+            <div class="col-lg-7 col-md-7 col-sm-7">
                 <div class="row hosting-comparision">
                     <div class="col-lg-4 hosting-plan">
                     <h5>Single</h5>
-                    <p>$<strong>0</strong>/mo</p>
+                    <p><span class="coin">$</span><strong>0</strong>/mo</p>
                     <button type="button" class="btn-cart">Add to cart</button>   
                     </div>
                     <div class="col-lg-4 hosting-plan hosting-mid-plan">
                     <h5>Premium</h5>
-                    <p>$<strong>2</strong>/mo</p>
+                    <p><span>$</span><strong>2</strong>/mo</p>
                     <button type="button" class="btn-cart">Add to cart</button>
                     </div>
                     <div class="col-lg-4 hosting-plan">
                     <h5>Business</h5>
-                    <p>$<strong>3</strong>/mo</p>
+                    <p><span>$</span><strong>3</strong>/mo</p>
                     <button type="button" class="btn-cart">Add to cart</button>
                     </div>
                 </div>
@@ -458,43 +462,255 @@ include("header.php");
             </div>
         </div>
     </div>
+</section> -->
+
+<section id="comparing-web-hosting">
+    <div class="container">
+         <div class="gap-25"></div>
+       <h2 class="comparing-web-hosting-header">Compare All <b>Web Hosting</b> Plans</h2>
+       <div class="gap-25"></div>
+        <div class="row web-hosting-plan">
+            <div class="col-lg-4 col-md-4 col-sm-4 hosting-layout-plan">
+               
+               
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8">
+                <div class="row hosting-comparision">
+                    <div class="col-lg-4 col-md-4 hosting-plan">
+                    <h5>Single</h5>
+                    <p><span class="coin">$</span><strong>0</strong>/mo</p>
+                    <button type="button" class="btn-cart">Add to cart</button>   
+                    </div>
+                    <div class="col-lg-4 col-md-4 hosting-plan hosting-mid-plan">
+                    <h5>Premium</h5>
+                    <p><span>$</span><strong>2</strong>/mo</p>
+                    <button type="button" class="btn-cart">Add to cart</button>
+                    </div>
+                    <div class="col-lg-4 col-md-4 hosting-plan">
+                    <h5>Business</h5>
+                    <p><span>$</span><strong>3</strong>/mo</p>
+                    <button type="button" class="btn-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>Processing Power & Memory</h4>
+           </div>
+           <div class="col-lg-8 col-md-4">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span>1X</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span>2X</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span>4X</span>
+                     </div>
+               </div>
+            </div>
+        </div>
+        <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>Websites</h4>
+           </div>
+           <div class="col-lg-8 col-md-8">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span>1</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span>Unlimited*</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span>Unlimited*</span>
+                     </div>
+               </div>
+            </div>
+        </div> 
+        <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>Disk Space</h4>
+           </div>
+           <div class="col-lg-8 col-md-8">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span>10GB</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span>20GB</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span>30GB</span>
+                     </div>
+               </div>
+            </div>
+        </div>
+         <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>Disk Space</h4>
+           </div>
+           <div class="col-lg-8 col-md-8">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span>10GB</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span>20GB</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span>30GB</span>
+                     </div>
+               </div>
+            </div>
+        </div>
+       <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>Bandwidth</h4>
+           </div>
+           <div class="col-lg-8 col-md-8">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span>100GB</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span>Unlimited</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span>Unlimited</span>
+                     </div>
+               </div>
+            </div>
+        </div>
+       <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>MySQL Databases</h4>
+           </div>
+           <div class="col-lg-8 col-md-8">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span>1</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span>Unlimited*</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span>Unlimited*</span>
+                     </div>
+               </div>
+            </div>
+        </div>
+       <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>Free Domain Registration</h4>
+           </div>
+           <div class="col-lg-8 col-md-8">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span><i class="fa fa-times"></i></span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </div>
+               </div>
+            </div>
+        </div>
+         <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>Free SSL</h4>
+           </div>
+           <div class="col-lg-8 col-md-8">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span><i class="fa fa-times"></i></span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span><i class="fa fa-times"></i></span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </div>
+               </div>
+            </div>
+        </div>
+         <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>Daily Backups</h4>
+           </div>
+           <div class="col-lg-8 col-md-8">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span><i class="fa fa-times"></i></span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span><i class="fa fa-times"></i></span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </div>
+               </div>
+            </div>
+        </div>
+       <div class="row web-hosting-plans">
+           <div class="col-lg-4 col-md-4">
+               <h4>Email Accounts</h4>
+           </div>
+           <div class="col-lg-8 col-md-8">
+               <div class="row web-hosting-layout-two">
+                     <div class="col-lg-4 col-md-4">
+                           <span>1</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                        <span>Unlimited*</span>
+                     </div>
+                     <div class="col-lg-4 col-md-4">
+                           <span>Unlimited*</span>
+                     </div>
+               </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="hosting-support-technologies">
-<div class="container">
-                
-                  <div class="row justify-content-center layout-slider ">
-                     <div class="col-lg-12 col-12 hosting-support-technologies-slider slider">
-                        <div class="slider-images">
-                           <h5>Php</h5>
-                           <img src="img/php3.png">
-                        </div>
-                        <div class="slider-images">
-                        <h5>Java</h5>
-                           <img src="img/java.png">
-                        </div>
-                        <div class="slider-images">
-                        <h5>Drupal</h5>
-                           <img src="img/drupal.png">
-                        </div>
-                        <div class="slider-images">
-                           <h5>Php</h5>
-                           <img src="img/php3.png">
-                        </div>
-                        <div class="slider-images">
-                        <h5>Java</h5>
-                           <img src="img/java.png">
-                        </div>
-                        <div class="slider-images">
-                        <h5>Drupal</h5>
-                           <img src="img/drupal.png">
-                        </div>
-                        <div class="slider-images">
-                           <h5>Wordpress</h5>
-                           <img src="img/wp.png">
-                        </div>  
-                     </div>
-                  </div>
-               </div>
+   <div class="container">         
+      <div class="row justify-content-center layout-slider ">
+         <div class="col-lg-12 col-12 hosting-support-technologies-slider slider">
+            <div class="slider-images">
+               <h5>Php</h5>
+               <img src="img/php3.png">
+            </div>
+            <div class="slider-images">
+            <h5>Java</h5>
+               <img src="img/java.png">
+            </div>
+            <div class="slider-images">
+            <h5>Drupal</h5>
+               <img src="img/drupal.png">
+            </div>
+            <div class="slider-images">
+               <h5>Php</h5>
+               <img src="img/php3.png">
+            </div>
+            <div class="slider-images">
+            <h5>Java</h5>
+               <img src="img/java.png">
+            </div>
+            <div class="slider-images">
+            <h5>Drupal</h5>
+               <img src="img/drupal.png">
+            </div>
+            <div class="slider-images">
+               <h5>Wordpress</h5>
+               <img src="img/wp.png">
+            </div>  
+         </div>
+      </div>
+   </div>
 </section>
 <?php
 include("footer.php");

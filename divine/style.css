@@ -841,6 +841,16 @@ padding: 0px 20px;
 }
 	}
 	@media (max-width: 768px) { 
+    .web-hosting-plans h4 {
+      font-size: 14px;
+      /* font-weight: bold;
+      padding: 13px;
+      margin-right: -15px;
+      margin-bottom: -7px;
+      margin-top: 0px;
+      padding-bottom: 18px;
+      border: solid 1px #e8e9eb; */
+  }
     .navbar-brand img {
       height: 40px;
       padding-left: 0px;
@@ -1059,6 +1069,7 @@ padding: 0px 20px;
   }
 
 @media (max-width: 576px) {
+
   .triangle_back {
     display: none;
   }
@@ -1394,64 +1405,55 @@ span.navbar-toggler-icon{
   background-color: #02a3da;
 }
 /*------------hosting-plan------*/
-.web-hosting-plan .hosting-plan {
-  padding: 15px;
-  border: 1px solid; 
-}
-.web-hosting-plan .hosting-plan strong {
-  font-size: 32px;
-}
-.web-hosting-plan .hosting-comparision {
+.web-hosting-plan {
   position: sticky;
   top:66px;
   z-index: 999;
-  background-color: lightgray;
+  background-color: #ffffff;
+  border-right: solid 1px #e8e9eb;
+  text-align: center;
 }
-.web-hosting-plan .hosting-layout-plan {
-  margin-top: 162px;
+ .web-hosting-plan h2{
+  text-align: center;
 }
-.web-hosting-plan .hosting-layout-plan h4{
-  font-weight: bold;
-  padding: 13px;
-  border: 1px solid;
-  margin: -1px;
-  margin-right: -16px;
-}
-/* .web-hosting-plan .hosting-layout-plan h4::after {
-    content: '\f059';
-    font-family: FontAwesome;
-    margin-left:5px;
-    color:#d3d3d3;
-} */
-.web-hosting-plan .hosting-plan h5 {
-  font-weight: bold;
-}
-.web-hosting-plan .hosting-plan-layout2 {
-  margin-top: 0px;
-}
-.web-hosting-plan .hosting-plan-layout2 p {
+.web-hosting-plan .hosting-plan {
   padding: 15px;
-  border: 1px solid;
-  margin: -1px;
-  margin-right: -16px;
-  margin-left: -15px;
-  text-align: center;
+  border-top: solid 1px #e8e9eb;
+  border-left: solid 1px #e8e9eb;
 }
-.web-hosting-plan .hosting-plan-layout2 .fa-times {
-  font-size: 20px;
-  color: #fc5155;
+.comparing-web-hosting-header {
   text-align: center;
-}
-.web-hosting-plan .hosting-plan-layout2 .fa-check {
-  font-size: 20px;
-  color:#00b67a;
-  text-align: center;
-
+} 
+.web-hosting-plan .hosting-plan strong {
+  font-size: 32px;
 }
 .web-hosting-plan .hosting-plan .btn-cart {
-  padding: 5px;
+  padding: 5px 15px;
   border: none;
   background-color: #02a3da;
-  color: black;
+  color: #ffffff;
   border-radius: 5px;
+}
+.web-hosting-plans h4 {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 13px;
+  margin-right: -15px;
+  margin-bottom: -7px;
+  margin-top: 0px;
+  padding-bottom: 18px;
+  border: solid 1px #e8e9eb;
+}
+.web-hosting-layout-two .col-lg-4 {
+  padding: 13px;
+  border: solid 1px #e8e9eb;
+  text-align: center;
+}
+.web-hosting-layout-two .fa-times {
+  font-size: 20px;
+  color: #fc5155;
+}
+.web-hosting-layout-two .fa-check {
+  font-size: 20px;
+  color:#00b67a;
 }
